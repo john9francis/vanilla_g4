@@ -28,6 +28,8 @@ Adding runManager (default)...
 - /run/
 - /random/
 
+Adding analysis manager
+- /analysis/
 
 # Terminal commands
 - `ls` shows all the commands

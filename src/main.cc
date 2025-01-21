@@ -3,6 +3,8 @@
 
 #include "G4AnalysisManager.hh"
 
+#include "DetectorConstruction.hh"
+
 int main(int argc, char** argv){
 
   // init ui stuff
@@ -12,14 +14,17 @@ int main(int argc, char** argv){
   // run
   auto runManager = G4RunManagerFactory::CreateRunManager(G4RunManagerType::Default);
   
+  // analysis
+  G4AnalysisManager::Instance();
+
   // physics list
 
   // detector
+  runManager->SetUserInitialization(new DetConstruction());
   
   // particle gun
   
-  // analysis
-  G4AnalysisManager::Instance();
+
 
   ui->SessionStart();
   delete ui;

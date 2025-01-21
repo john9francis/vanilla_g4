@@ -12,6 +12,8 @@ int main(int argc, char** argv){
   // run
   auto runManager = G4RunManagerFactory::CreateRunManager(G4RunManagerType::Default);
   
+  // physics list
+
   // detector
   
   // particle gun

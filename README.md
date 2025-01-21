@@ -35,8 +35,6 @@ Adding analysis manager
 - `ls` shows all the commands
 - `exit` quits the terminal.
 
-
-
 # Dangerous commands
 - control/loop
 - control/foreach
@@ -44,3 +42,7 @@ Adding analysis manager
 
 # Useful commands
 - control/createHtml (generates html for all subdirectories and commands... however it doesn't work.)
+
+
+# Useful websites
+- [Intro to physics lists presentation](http://geant4.in2p3.fr/IMG/pdf_PhysicsLists.pdf)

@@ -12,6 +12,23 @@ make -j10
 ```
 
 
+# All directories
+Just with UITerminal:
+- /control/
+- /units/
+- /profiler/
+
+Adding runManager (default)...
+- /tracking/
+- /geometry/
+- /process/
+- /particle/
+- /event/
+- /cuts/
+- /run/
+- /random/
+
+
 # Terminal commands
 - `ls` shows all the commands
 - `exit` quits the terminal.

@@ -7,5 +7,21 @@ A general purpose Geant4 app using the most vanilla Geant4 possible.
 mkdir build
 cd build
 cmake ..
-make # (or build with VS)
+make -j10
+./vanilla_g4
 ```
+
+
+# Terminal commands
+- `ls` shows all the commands
+- `exit` quits the terminal.
+
+
+
+# Dangerous commands
+- control/loop
+- control/foreach
+- control/shell
+
+# Useful commands
+- control/createHtml (generates html for all subdirectories and commands... however it doesn't work.)
